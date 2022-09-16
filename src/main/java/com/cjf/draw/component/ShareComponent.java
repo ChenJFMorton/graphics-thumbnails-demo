@@ -77,7 +77,7 @@ public class ShareComponent extends DrawComponent {
 
 	public void drawPaintImage(Graphics2D g2d) throws IOException {
 
-		BufferedImage oriImage = MyImageIO.readFromPath("image/pig.jpg");
+		BufferedImage oriImage = MyImageIO.readFromPath("image/11.jpg");
 		if (ctx.getIsRound()) {
 			// 图片圆形裁剪
 			BufferedImage image = DrawUtil.clipRound(oriImage);
